@@ -29,6 +29,9 @@
   </sub>
 </div>
 
+### Status do Projeto
+> Status do Projeto: Em desenvolvimento :warning:
+
 # :pushpin: Tabela de Conteúdo
 
 * [Tecnologias](#computer-tecnologias)
