@@ -16,10 +16,12 @@ function TeacherList () {
   const [teachers, setTeachers] = useState([]);
   const [favorites, setFavorites] = useState<number[]>([]);
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
-
+  
   const [subject, setSubject] = useState('');
   const [week_day, setWeeDay] = useState('');
   const [time, setTime] = useState('');
+
+  const newSubject = subject.replace(/\s/g, '');
 
   function loadFavorites() {
     AsyncStorage.getItem('favorites').then(response => {
@@ -49,7 +51,7 @@ function TeacherList () {
     
     const { data } = await api.get('classes', {
       params: {
-        subject,
+        subject: newSubject,
         week_day,
         time,
       }
@@ -74,7 +76,7 @@ function TeacherList () {
             <Text style={styles.label}>Matéria</Text>
             <TextInput 
               style={styles.input}
-              value={subject}
+              value={newSubject}
               onChangeText={text => setSubject(text)}
               placeholder="Qual a matéria?"
               placeholderTextColor="#c1bccc"

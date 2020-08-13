@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./.github/logo.png" alt="Proffy" width="280"/>
+   <img src="./.github/logo.png" alt="Proffy" width="420"/>
 </p>
 
 <p align="center">	
@@ -30,9 +30,10 @@
 </div>
 
 ### Status do Projeto
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Em desenvolvimento (Novas features) :warning:
 
-# :pushpin: Tabela de Conteúdo
+
+## :pushpin: Tabela de Conteúdo
 
 * [Tecnologias](#computer-tecnologias)
 * [Funcionalidades](#rocket-funcionalidades)
@@ -64,7 +65,7 @@
    <img src="./.github/mobile-favoritos.png" width="180">
 </div>
 
-# :computer: Tecnologias
+## :computer: Tecnologias
 Esse projeto foi feito utilizando as seguintes tecnologias:
 
 * [Typescript](https://www.typescriptlang.org/)      
@@ -72,19 +73,19 @@ Esse projeto foi feito utilizando as seguintes tecnologias:
 * [Expo](https://expo.io/)       
 * [Express](https://expressjs.com/) 
 
-# :rocket: Funcionalidades
+## :rocket: Funcionalidades
 
 * Site para cadastro de estudante e professores.
 * App para conectar estudantes e professores.
 
-# :construction_worker: Como rodar
+## :construction_worker: Como rodar
 
 ```zsh
 # Clone o Repositório
 $ git clone https://github.com/brunoinx/nlw2-proffy.git
 ```
 
-### 📦 Rode a API
+### 📦 Run API
 
 ```zsh
 # Vá para a pasta do servidor
@@ -98,7 +99,7 @@ $ yarn dev
 ```
 Acesse a API: http://localhost:3333/
 
-### 💻 Rode o Project Web
+### 💻 Run Web Project
 
 ```zsh
 # Vá para a pasta web
@@ -128,7 +129,7 @@ $ yarn start
 Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) ou rode em um emulador.
 
 
-# :bug: Problemas
+## :bug: Problemas
 
 Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Proffy](https://github.com/Brunoinx/nlw2-proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Me sentirei honradoem fazer o review do seu pull request**!
 
